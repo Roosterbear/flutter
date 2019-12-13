@@ -1,0 +1,47 @@
+Tener instalado GIT para usar gitbash
+
+*************************************
+instalar flutter (SDK en flutter.dev)
+*************************************
+descomprimir
+copiar la carpeta flutter en c:\src\
+NO INSTALAR EN PROGRAM FILES!!!
+checar en consola: flutter --version
+Ir a menu inicio y ejecutar: env
+Elegir "Edit Environment variables for your account"
+Editamos la variable "Path"
+Copiar y pegar la ruta a la carpeta bin en flutter
+Reiniciar la consola y probar de nuevo
+
+
+*************************************
+instalar android studio
+*************************************
+Nos ayudará a tener el SDK, ambiente Java y 
+creacion de equipos virtuales
+Instalar el plugin: flutter
+Instalar el plugin: dart
+Crear una aplicacion de flutter
+Instalar 2 equipos virtuales en el AVD Manager
+
+
+*************************************
+instalar Visual Studio Code
+*************************************
+Agregar el plugin: flutter
+Agregar el plugin: dart
+Agregar el plugin:
+ctrl+shift+p
+flutter new project
+(ponerle un nombre)
+ctrl+shift+p
+launch emulator
+
+
+
+
+
+
+
+
+
