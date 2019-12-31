@@ -18,12 +18,28 @@ Reiniciar la consola y probar de nuevo
 instalar android studio
 *************************************
 Nos ayudará a tener el SDK, ambiente Java y 
-creacion de equipos virtuales
-Instalar el plugin: flutter
-Instalar el plugin: dart
-Crear una aplicacion de flutter
-Instalar 2 equipos virtuales en el AVD Manager
+    creacion de equipos virtuales
 
+-La instalacion es basicamente darle todo "next"    
+Vamos al engrane de configuracion de la pantalla inicial de Android Studio
+(Si nos abre un proyecto, nos vamos a file->Settings)
+Instalar el plugin: dart
+Instalar el plugin: flutter
+
+-En consola git ejecutar:
+flutter doctor --android-licenses
+
+-Crear una aplicacion de flutter
+En SDK Path debe ser: C:\src\flutter
+Le damos en Finish y esperamos hasta que acabe de indexar todo
+
+-Instalar 2 equipos virtuales en el AVD Manager
+Vamos a AVD Manager en el icono del telefono o en Tools
+Si es necesario, instalar el HAXM
+Instalar de preferencia un dispositivo pequeño y uno grande 
+Ejecutar con el boton de play
+(verificando que estemos en main y este seleccionado el dispositivo virtual)
+ 
 
 *************************************
 instalar Visual Studio Code
